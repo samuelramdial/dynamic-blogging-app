@@ -26,7 +26,9 @@ out adapts to different screen sizes for better usability
 
 ## Live Demo
 
-Check out the live website here: [Dynamic Blogging App](https://webpages.charlotte.edu/sramdial/itis3135/Ramdial-Samuel-Project2/)
+The live demo of the blogging app is hosted based on the requirements of a previous project and can be found here: [Dynamic Blogging App](https://webpages.charlotte.edu/sramdial/itis3135/Ramdial-Samuel-Project2/)
+
+>**Note:** This repository contains the updated code which adds backend integration and enhanced functionalities. The demo link above points to the earlier version for reference.  
 
 ## Acknowledgments 
 Project developed for: 
