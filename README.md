@@ -1,26 +1,28 @@
 # Dynamic Blogging App 
 
-This project is a dyanmic blogging web application built from scratch using **HTML5**, **CSS3**, and **JavaScript** - no frameworks or libraries used. 
+This project is a dynamic blogging web application built from scratch using **HTML5**, **CSS3**, and **JavaScript** - no frameworks or libraries used. This application integrates a JSON server backend to manage blog data. It features full CRUD functionality with backend pagination, and error handling. 
 
 ## Features 
-- **Clean HTML5 markup** validated with the W3C validator
-- **CSS styling written from scratch** with complete separation from HTML (no inline styles)
-- **Dynamic content rendering:** Blog posts are dynamically loaded and paginated using JavaScript
-- **Pagination:** Navigate blog posts by pages with active page highlighting
-- **New blog form:** Users can submit new  blog posts which prepend to the list dynamically
-- **Modal popup:** Click a blog post to view its full details in a modal overlay
-- **Responsive design:** Layout adapts to different screen sizes for better usability
+- **Backend-powered Pagination & Filtering:** Fetches only the required blogs per page and supports server-side search filtering using JSON server query parameters.
+- **Full CRUD Operations:**  
+  - **Create:** Add new blogs via a form with validation and current date assignment.  
+  - **Read:** View paginated blog listings and individual blog details.  
+  - **Update:** Edit blog posts with pre-populated form fields.  
+  - **Delete:** Remove blog posts with confirmation and redirection.
+- **Separation of Concerns:** Frontend (HTML, CSS, JS) fully separated from backend JSON server.
+- **Responsive UI:** Clean and consistent styling across all pages with user-friendly error notifications.
+- **Error Handling:** API call failures display user-friendly notifications with dismiss option.
+out adapts to different screen sizes for better usability
 
-##Technologies
-- HTML5
-- CSS3
-- JavaScript
+## Project Structure
 
-# Project Structure 
-- `index.html` - main page structure
-- `css/styles.css` - all styling rules
-- `js/script.js` - handles dynamic rendering, pagination, modal popup, and form functionality
-- `images/default.jpeg` - default profile avatar for new posts
+- **Server:**  
+  - `db.json` — JSON server database with 100 blog entries  
+- **Frontend:**  
+  - `index.html`, `details.html`, `new.html`, `edit.html` — main pages  
+  - `css/styles.css` — stylesheet  
+  - `js/index.js`, `details.js`, `new.js`, `edit.js` — frontend logic for each page  
+  - `images/default.jpeg` — default avatar image for new blogs  
 
 ## Live Demo
 
