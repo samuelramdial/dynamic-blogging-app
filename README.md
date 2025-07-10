@@ -35,4 +35,5 @@ Project developed for:
 - **ITSC 3135 - Web-Based Application Design and Development**
 - Intstructor: Dr. Lijuan Cao
 - University of North Carolina at Charlotte
+  
 © 2025 Samuel Ramdial
